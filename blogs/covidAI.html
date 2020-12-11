@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Surge of Sensationalist COVID-19 AI Research</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <div class="logo-pic"></div>
+        </div>
+        <nav>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul class="unstyled-list navbar">
+                <li><a class="nav-items" href="../index.html">Home</a></li>
+                <li><a class="nav-items" href="../about.html">About Us</a></li>
+                <li><a class="nav-items" href="../mission.html">Our Mission</a></li>
+                <li><a class="nav-items" href="../stories.html">Our Stories</a></li>
+                <li><a class="nav-items" href="../education.html">Education</a></li>
+                <li><a class="nav-items" href="../fellowship.html">Fellowship Program</a></li>
+                <li><a class="nav-items" href="../services.html">Services</a></li>
+                <li><a class="nav-items" href="../careers.html">Careers</a></li>
+                <li><a class="nav-items" href="../gallery.html">Gallery</a></li>
+                <li><a class="nav-items" href="../feedback.html">Feedback</a></li>
+                <li><a class="nav-items" href="../contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="page-heading flex-v-center">
+        <h2>The Surge of Sensationalist COVID-19 AI Research</h2>
+    </div>
+
+    <div class="blog-container">
+        <div class="blog-image">
+            <img src="../images/covid.jpg" alt="">
+        </div>
+
+        <p>
+            There seems to be a tendency to hastily use imperfect and questionable data to train an AI solution for COVID-19, a dangerous trend that not only does not help any patient or physician but also damages the reputation of the AI community. Dealing with a pandemic – as significant as it is – does not suspend basic scientific principles. Data has to be curated by medical experts, and full and rigorous validations have to be performed, and results have to be reviewed by peers before we deploy any solution or even proposal into the world, particularly when the society is dealing with many uncertainties. <br> <br>
+            It is safe to say that we are all deeply concerned about the COVID-19 pandemic. This coronavirus has drastically changed our reality: stress, restrictions, quarantines, heroic sacrifices of caregivers including staff, nurses and physicians, losing loved ones, economic hardships, and massive uncertainties about what is in store in the coming months. Under such circumstances, it is only natural that many of us are thinking of ways to help - in the fastest ways possible. The AI community is not an exception. <br> <br>
+            Machine learning methods live from data. They learn from labeled data to classify, predict and estimate. The quality and reliability of any AI method directly depend on the quality and reliability of the labeled data. In computer science, we talk about “garbage in, garbage out” (GIGO) which summarizes the experience that low-quality input data generates unreliable output or “garbage”. This becomes even more critical when we are dealing with highly complex data modalities, such as medical images - data that generally require highly specialized knowledge for correct interpretations. <br> <br>
+            Within the AI community, we are fully dependent on data. As long as the domain is not sensitive (finance, healthcare, surveillance, etc.), we usually assemble our datasets by using different methods; From the manual gathering of samples up to highly sophisticated crawlers to parse through the Internet and other publicly available repositories. In medical imaging, we deal with a highly sensitive domain in which a long process is generally required to curate and access a set of labeled images. Needless to say, the curation has to happen within the walls of a hospital not just because the experts are there, but also due to the required de-identification of images to comply with privacy regulations. <br> <br>
+            But, sometimes we get impatient; we create our toy datasets by the manual collection of publicly accessible sources (e.g., online journals) - and there is generally no concern about this approach. Most of the time we – as AI researchers with no clinical or medical competency – create our toy datasets to run initial investigations and get a feeling for the challenges to come. This usually happens in anticipation of receiving a professionally curated dataset, a process that is often slowed down by ethic reviews and intellectual property negotiations.  <br> <br>
+            To be clear, a “toy dataset” in the medical imaging domain is not a toy just because it is commonly very small, but more importantly because it has been created by engineers and computer scientists, and not by physicians and medical/clinical experts. And, nobody would complain if we play with our toys inside our AI labs to get prepared to deal with the actual data from the hospital. <br> <br>
+            Radiologists around the world are understandably very busy, to put it mildly; it is not the best time to forge collaborations with radiologists if you are an overambitious AI researcher who wants to help. So, some of us have started to assemble our own dataset to get prepared for future tasks. <br> <br>
+            Collections of x-ray and partly CT images – scraped from the Internet – seem to emerge here and there and appear to be evolving as the creators continue to add images. Because of the availability of such datasets on one side and the ubiquity of basic AI knowledge and tools on the other side, many AI enthusiasts and start-ups have impulsively begun to develop solutions for COVID-19 in x-ray images. One finds websites and blogs that advise how to detect COVID-19 from x-ray scans with high accuracy. Others provide a sort of tutorial on detecting COVID-19 in X-ray images. We are even starting to see non-peer-reviewed papers that go a step further and baptize their solution with aggrandizing names like “COVID-Net”. This type of works commonly lacks many experimental details to explain how one has dealt with a few images from a very small number of patients to feed the deep network. Such papers report no validation, and no radiologist has guided the experiments. Many of these works were hurriedly made public before the creators of datasets could even provide sufficient explanation about their collection process. In an attempt to overcome the small data size, AI enthusiasts and start-ups mix the few COVID-19 images with other public datasets, i.e., pneumonia datasets. This is generally quite clever but I looked more closely at one case and the trouble is that the pneumonia cases were pediatric images; so the COVID-Nets are comparing pediatric pneumonia (children one to five years old) with adult COVID-19 patients. Well, this happens when we exclude radiologists from research that needs expert oversight. <br> <br>
+            Why are we rushing to publish faulty AI results on tiny datasets mixed with wrong anatomies, with no radiological backing, and with no validation? Do we want to help COVID-19 patients? <br> <br>
+            Perhaps the abundance of funding opportunity announcements in recent days, and the possibility of getting exposure for our research is misleading us into faulty research conduct; we cannot abandon fundamental scientific principles due to lockdowns and quarantines. AI is neither a ventilator nor a vaccine nor a pill; it is extremely unlikely that the exhausted radiologists in Wuhan, Qom or Bergamo download the Python code of our poorly trained network (using insufficient and improper data and described in quickly written papers and blogs) to just obtain a flawed second opinion. <br> <br>
+            
+        </p>
+    </div>
+
+
+    
+    <footer>
+        <div class="upper-footer">
+            <div class="icons">
+                <div class="icon1 flex-center">
+                    <img src="../icons/icon1.png" alt="">
+                </div>
+                <div class="icon2 flex-center">
+                    <img src="../icons/icon2.png" alt="">
+                </div>
+                <div class="icon3 flex-center">
+                    <img src="../icons/icon3.png" alt="">
+                </div>
+                <div class="icon4 flex-center">
+                    <img src="../icons/icon4.png" alt="">
+                </div>
+                <div class="icon5 flex-center">
+                    <img src="../icons/icon5.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="lower-footer flex-center">
+            <p>This is a University project, All rights are reserved to the student.</p>
+        </div>
+    </footer>
+
+    <script src="../navigation.js"></script>
+</body>
+</html>
